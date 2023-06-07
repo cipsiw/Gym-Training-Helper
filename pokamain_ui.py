@@ -2117,7 +2117,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(4)
         self.warmup.toggled['bool'].connect(self.warmup2.setChecked) # type: ignore
         self.fullbody1.toggled['bool'].connect(self.fullbody2.setChecked) # type: ignore
         self.split1.toggled['bool'].connect(self.split2.setChecked) # type: ignore
@@ -2156,7 +2156,7 @@ class Ui_MainWindow(object):
         self.split1.setShortcut(_translate("MainWindow", "4"))
         self.search1.setShortcut(_translate("MainWindow", "5"))
         self.exit1.setShortcut(_translate("MainWindow", "0"))
-        self.label_21.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">Добро пожаловать в Gym Training Helper!</p><p align=\"center\">Для перемещения в меню можно использовать кнопки слева и сверху или их шорткаты.</p><p align=\"center\">Перед началом тренировки стоит провести разминку.</p><p align=\"center\">Затем выберите интересующий тип тренировки. </p><p align=\"center\">Также Вы можете использовать поиск, чтобы посмотреть упражнения на интересующую группу мышц.</p></body></html>"))
+        self.label_21.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">Добро пожаловать в Gym Training Helper!</p><p align=\"center\">Для перемещения в меню можно использовать кнопки слева и сверху или привязанные к ним клавиши на клавиатуре.</p><p align=\"center\">Перед началом тренировки стоит провести разминку.</p><p align=\"center\">Затем выберите интересующий тип тренировки. </p><p align=\"center\">Также Вы можете использовать поиск, чтобы посмотреть упражнения на интересующую группу мышц.</p></body></html>"))
         self.label_12.setText(_translate("MainWindow", "5.Наклоны туловища в стороны"))
         self.label_8.setText(_translate("MainWindow", "3. Круговое вращение в локтевых суставах"))
         self.label_5.setText(_translate("MainWindow", "2. Круговое вращение прямыми руками"))
@@ -2217,7 +2217,7 @@ class Ui_MainWindow(object):
         self.label_87.setText(_translate("MainWindow", "5. Сгибание рук со штангой стоя"))
         self.searchinput.setPlaceholderText(_translate("MainWindow", "Введите группу мышц, на которую хотите посмотреть упражнения"))
         self.search3.setShortcut(_translate("MainWindow", "Return"))
-        self.label_62.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">Вы попали на страницу поиска.</p><p align=\"center\">Здесь Вы можете посмотреть разные упражнения на интересующую Вас группу мышц.</p><p align=\"center\">Для поиска используйте слова: Руки, Ноги, Плечи, Спина, Грудь, Трапеции, Пресс.</p><p align=\"center\">Хочу напомнить, что все упражнения выполнятются после разминки!<br/></p></body></html>"))
+        self.label_62.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">Вы попали на страницу поиска.</p><p align=\"center\">Здесь Вы можете посмотреть разные упражнения на интересующую Вас группу мышц.</p><p align=\"center\">Для поиска используйте слова (соблюдая регистр, без пробелов в конце): Руки, Ноги, Плечи, Спина, Грудь, Трапеции, Пресс.</p><p align=\"center\">Хочу напомнить, что все упражнения выполнятются после разминки!<br/></p></body></html>"))
         self.label_104.setText(_translate("MainWindow", "Концетрированный подъем на бицепс"))
         self.label_52.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\">Руки</p><p align=\"justify\">Здесь представлены упражнения на различные группы мышц рук</p></body></html>"))
         self.label_131.setText(_translate("MainWindow", "Подъем гантелей на скамье Скотта"))

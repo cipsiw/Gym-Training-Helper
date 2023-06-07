@@ -88,12 +88,10 @@ class MainWindow(QMainWindow):
 
 	def volumeup(self):
 		curvolume = self.player.volume()
-		print(curvolume)
 		self.player.setVolume(curvolume +5)
 
 	def volumedown(self):
 		curvolume = self.player.volume()
-		print(curvolume)
 		self.player.setVolume(curvolume - 5)
 
 if __name__ == "__main__":
